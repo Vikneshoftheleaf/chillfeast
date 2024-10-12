@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ProjectList() {
     return (
         <section class="bg-white dark:bg-gray-900 antialiased">
@@ -168,7 +170,7 @@ export default function ProjectList() {
                         </div>
                     </div>
 
-                    
+
                     <div class="space-y-4">
                         <div
                             class="bg-gray-100 text-green-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-green-700 dark:text-green-300">
@@ -208,6 +210,15 @@ export default function ProjectList() {
                         </div>
                     </div>
 
+                </div>
+
+            </div>
+
+            <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                <div class="mx-auto max-w-screen-sm text-center">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Transform Your Business with Expert Digital Solutions</h2>
+                    <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Looking for a website that stands out or a custom chatbot to engage your customers? Chillfeast has the expertise to deliver. Partner with us today and experience the power of seamless digital innovation.</p>
+                    <Link href={'/services'} class="inline-flex items-center gap-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View Services <ion-icon name="arrow-forward-outline"></ion-icon></Link>
                 </div>
             </div>
         </section>

@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ThemeProvider attribute="class">
           <Navbar></Navbar>
-          <main className="mt-8">
+          <main>
             {children}
           </main>
           <Footer></Footer>

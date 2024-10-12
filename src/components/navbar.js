@@ -1,5 +1,5 @@
 import Link from "next/link"
-import logo from "../../public/logo-cropped.png"
+import logo from "../../public/logo-final.png"
 import Image from "next/image"
 import DarkModeToggler from "./dark-mode-toggler"
 export default function Navbar() {
@@ -9,8 +9,8 @@ export default function Navbar() {
         <nav class="bg-white dark:bg-gray-900  w-full border-b border-gray-200 dark:border-gray-600">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
-                <Link href={'/'} class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <Image src={logo} alt="Logo" height={80} width={160} className="rounded-md"></Image>
+                <Link href={'/'} class="flex items-center space-x-3 rtl:space-x-reverse ">
+                    <Image src={logo} alt="Logo" height={80} width={160} className="rounded-md invert dark:invert-0"></Image>
                 </Link>
 
                 <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

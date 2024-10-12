@@ -1,6 +1,6 @@
 
 import Link from "next/link"
-import logo from "../../public/logo-cropped.png"
+import logo from "../../public/logo-final.png"
 import Image from "next/image"
 
 export default function Footer()
@@ -13,7 +13,7 @@ export default function Footer()
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <Link href={'/'} class="flex items-center">
-                    <Image src={logo} alt="Logo" height={80} width={160} className="rounded-md"></Image>
+                    <Image src={logo} alt="Logo" height={80} width={160} className="dark:invert-0 invert rounded-md"></Image>
               </Link>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

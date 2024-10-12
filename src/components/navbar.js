@@ -9,9 +9,7 @@ export default function Navbar() {
     const [navMode, setNavMode] = useState('')
     const router = useRouter()
     useEffect(()=>{
-        router.events.on('routeChangeStart', ()=>{        
             setNavMode('hidden')
-    });
     },[router])
     return (
 

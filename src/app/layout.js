@@ -10,10 +10,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar></Navbar>
-        <main className="mt-16">
+        <main className="mt-8">
         {children}
         </main>
         <Footer></Footer>
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
         </body>
     </html>
   );

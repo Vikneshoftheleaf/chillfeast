@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
 
 
-        <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <nav class="bg-white dark:bg-gray-900  w-full border-b border-gray-200 dark:border-gray-600">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href={'/'} class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image src={logo} alt="Logo" height={80} width={160} className="rounded-md"></Image>

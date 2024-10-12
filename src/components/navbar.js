@@ -3,14 +3,9 @@ import Link from "next/link"
 import logo from "../../public/logo-final.png"
 import Image from "next/image"
 import DarkModeToggler from "./dark-mode-toggler"
-import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 export default function Navbar() {
-    const [navMode, setNavMode] = useState('')
-    const router = useRouter()
-    useEffect(()=>{
-            setNavMode('hidden')
-    },[router])
+    const [navMode, setNavMode] = useState('hidden')
     return (
 
         <nav class="bg-white dark:bg-gray-900  w-full border-b border-gray-200 dark:border-gray-600">

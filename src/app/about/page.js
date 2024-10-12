@@ -1,6 +1,6 @@
 export const metadata = {
-    title: "Chillfeast | About us",
-    description: "We are the best and effective solution providers for the modern techological problem.",
+    title: "About Chillfeast | Your Trusted Partner in Website Development & Digital Solutions",
+    description: "Learn about Chillfeast’s mission, values, and the expert team behind our innovative digital solutions. We are dedicated to providing high-quality website development and chatbot services.",
   };
 
 

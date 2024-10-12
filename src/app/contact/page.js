@@ -1,6 +1,8 @@
+import ContactForm from "@/components/contact-form";
+
 export const metadata = {
-    title: "Chillfeast | Contact Us",
-    description: "We are the best and effective solution providers for the modern techological problem.",
+    title: "Contact Chillfeast - Get in Touch for Web Development & Chatbot Services",
+    description: "Need a new website or chatbot for your business? Contact Chillfeast today to discuss your project. We offer custom WordPress sites, static sites, and chatbot solutions tailored to your needs.",
   };
 
 
@@ -8,6 +10,6 @@ export const metadata = {
 export default function Contact()
 {
     return(
-        <h1>Contact</h1>
+        <ContactForm />
     )
 }

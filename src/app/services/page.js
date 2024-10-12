@@ -1,11 +1,12 @@
+import ServiceList from "@/components/service-list";
 export const metadata = {
-    title: "Chillfeast | Services",
-    description: "We are the best and effective solution providers for the modern techological problem.",
+    title: "Chillfeast Services - WordPress, Static Websites, & Chatbot Development",
+    description: "Discover Chillfeast’s full range of services, including WordPress site development, static website creation, and custom chatbot solutions. Elevate your business with our expert digital services.    ",
   };
 
 export default function Services()
 {
     return(
-        <h1>Services</h1>
+        <ServiceList/>
     )
 }

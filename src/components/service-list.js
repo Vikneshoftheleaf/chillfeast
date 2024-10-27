@@ -7,8 +7,8 @@ export default function ServiceList() {
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Empowering Your Business with Cutting-Edge Digital Solutions</h2>
                     <p class="text-gray-500 sm:text-xl dark:text-gray-400">From custom websites to intelligent chatbots, we deliver top-tier development services tailored to your unique needs. Explore our range of services and take your business to the next level with Chillfeast.</p>
                 </div>
-                <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-                    <div>
+                <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-2 md:gap-12 md:space-y-0">
+                    <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div class="text-2xl  flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="globe-outline"></ion-icon>
                         </div>
@@ -20,7 +20,7 @@ export default function ServiceList() {
                         </Link>
 
                     </div>
-                    <div>
+                    <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div class="text-2xl flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="logo-wordpress"></ion-icon>
                         </div>
@@ -33,12 +33,12 @@ export default function ServiceList() {
 
                     </div>
 
-                    <div>
+                    <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div class="text-2xl  flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="bag-handle-outline"></ion-icon>
                         </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">E-Commerce Website Development</h3>
-                        <p class="mb-6 text-gray-500 dark:text-gray-400">We specialize in developing robust e-commerce platforms to help you grow your online store. With secure payment gateways, intuitive product catalogs, and mobile-friendly designs, we ensure a smooth shopping experience for your customers while optimizing for conversions.</p>
+                        <p class="mb-6 text-gray-500 dark:text-gray-400">We specialize in developing robust e-commerce platforms to help you grow your online store. With secure payment gateways and mobile-friendly designs, we ensure a smooth shopping experience for your customers while optimizing for conversions.</p>
                         <Link href={'/contact'} class="inline-flex items-center gap-2 py-3 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70">
                             Learn More
                             <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -46,19 +46,19 @@ export default function ServiceList() {
 
                     </div>
 
-                    <div>
+                    <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div class="text-2xl  flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="chatbubbles-outline"></ion-icon>
                         </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">Customer Support Chatbot</h3>
-                        <p class="mb-6 text-gray-500 dark:text-gray-400">Our AI-driven customer support chatbots are designed to provide instant, 24/7 assistance to your customers. By integrating smart bots into your website or messaging platforms, you can automate responses to common queries, improve user engagement, and reduce customer service workload.</p>
+                        <p class="mb-6 text-gray-500 dark:text-gray-400">Our customer support chatbots are designed to provide assistance to your customers. By integrating smart bots into your website or messaging platforms, you can automate responses to common queries, improve user engagement and reduce customer service workload.</p>
                         <Link href={'/contact'} class="inline-flex items-center gap-2 py-3 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70">
                             Learn More
                             <ion-icon name="arrow-forward-outline"></ion-icon>
                         </Link>
 
                     </div>
-                    <div>
+                    <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div class="text-2xl  flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="qr-code-outline"></ion-icon>
                         </div>
@@ -70,7 +70,7 @@ export default function ServiceList() {
                         </Link>
 
                     </div>
-                    <div>
+                    <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div class="text-2xl  flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="cog-outline"></ion-icon>
                         </div>

@@ -14,7 +14,7 @@ export default function ProjectList() {
                 </div>
 
                 <div class="grid grid-cols-1 mt-12 text-left sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-                    <div class="space-y-4">
+                    <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div
                             class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
                             <span className="flex items-center mx-1">
@@ -26,12 +26,12 @@ export default function ProjectList() {
                             Bobukids
                         </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            Flowbite helps you connect with friends, family and communities of people who share your interests.
+                            Bobukids is a south indian based Kids Dinnerware company.
                         </p>
                         <div className="flex gap-2 w-full">
-                            <a href="#" title=""
+                            <a href="https://bobukids.in" title=""
                                 class="text-white bg-blue-700 justify-center hover:bg-blue-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                role="button">
+                                role="button" target="_blank">
                                 Preview
                                 <span className="ml-2 text-lg flex items-center">
                                     <ion-icon name="eye-outline"></ion-icon>
@@ -39,7 +39,7 @@ export default function ProjectList() {
                                 </span>
                             </a>
 
-                            <a href="#" title=""
+                            <Link href={'/testimonial#bobou'}
                                 class="text-gray-900 border border-gray-200 bg-white justify-center hover:bg-gray-100 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-800 dark:hover:bg-gray-70  dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
                                 role="button">
                                 Testimonial
@@ -47,13 +47,13 @@ export default function ProjectList() {
                                     <ion-icon name="chatbox-outline"></ion-icon>
 
                                 </span>
-                            </a>
+                            </Link>
 
 
                         </div>
                     </div>
 
-                    <div class="space-y-4">
+                    <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div
                             class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
                             <span className="flex items-center mx-1">
@@ -65,12 +65,12 @@ export default function ProjectList() {
                             KichataResearch
                         </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            Flowbite helps you connect with friends, family and communities of people who share your interests.
+                            KichataResearch is a Kenya Based Market Researching Company
                         </p>
                         <div className="flex gap-2 w-full">
-                            <a href="#" title=""
+                            <a href="https://kichataresearch.com" title=""
                                 class="text-white bg-blue-700 justify-center hover:bg-blue-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                role="button">
+                                role="button" target="_blank">
                                 Preview
                                 <span className="ml-2 text-lg flex items-center">
                                     <ion-icon name="eye-outline"></ion-icon>
@@ -78,7 +78,7 @@ export default function ProjectList() {
                                 </span>
                             </a>
 
-                            <a href="#" title=""
+                            <Link href={'/testimonial#kichata'}
                                 class="text-gray-900 border border-gray-200 bg-white justify-center hover:bg-gray-100 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-800 dark:hover:bg-gray-70  dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
                                 role="button">
                                 Testimonial
@@ -86,13 +86,14 @@ export default function ProjectList() {
                                     <ion-icon name="chatbox-outline"></ion-icon>
 
                                 </span>
-                            </a>
+                            </Link>
+
 
 
                         </div>
                     </div>
 
-                    <div class="space-y-4">
+                    <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div
                             class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
                             <span className="flex items-center mx-1">
@@ -104,12 +105,12 @@ export default function ProjectList() {
                             Kiwihomepros
                         </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            Flowbite helps you connect with friends, family and communities of people who share your interests.
+                           Kiwihomepros is a American based Pressure Washing Company
                         </p>
                         <div className="flex gap-2 w-full">
-                            <a href="#" title=""
+                            <a href="https://kiwihomepros.com" title=""
                                 class="text-white bg-blue-700 justify-center hover:bg-blue-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                role="button">
+                                role="button" target="_blank">
                                 Preview
                                 <span className="ml-2 text-lg flex items-center">
                                     <ion-icon name="eye-outline"></ion-icon>
@@ -117,7 +118,7 @@ export default function ProjectList() {
                                 </span>
                             </a>
 
-                            <a href="#" title=""
+                            <Link href={'/testimonial#kiwi'}
                                 class="text-gray-900 border border-gray-200 bg-white justify-center hover:bg-gray-100 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-800 dark:hover:bg-gray-70  dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
                                 role="button">
                                 Testimonial
@@ -125,13 +126,15 @@ export default function ProjectList() {
                                     <ion-icon name="chatbox-outline"></ion-icon>
 
                                 </span>
-                            </a>
+                            </Link>
+
+
 
 
                         </div>
                     </div>
 
-                    <div class="space-y-4">
+                    <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div
                             class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
                             <span className="flex items-center mx-1">
@@ -143,12 +146,12 @@ export default function ProjectList() {
                             Sarathuo
                         </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            Flowbite helps you connect with friends, family and communities of people who share your interests.
+                            Sarathuo is a Kenya based Youtuber
                         </p>
                         <div className="flex gap-2 w-full">
-                            <a href="#" title=""
+                            <a href="https://sarahthuo.com" title=""
                                 class="text-white bg-blue-700 justify-center hover:bg-blue-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                role="button">
+                                role="button" target="_blank">
                                 Preview
                                 <span className="ml-2 text-lg flex items-center">
                                     <ion-icon name="eye-outline"></ion-icon>
@@ -156,7 +159,7 @@ export default function ProjectList() {
                                 </span>
                             </a>
 
-                            <a href="#" title=""
+                            <Link href={'/testimonial#sara'}
                                 class="text-gray-900 border border-gray-200 bg-white justify-center hover:bg-gray-100 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-800 dark:hover:bg-gray-70  dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
                                 role="button">
                                 Testimonial
@@ -164,14 +167,16 @@ export default function ProjectList() {
                                     <ion-icon name="chatbox-outline"></ion-icon>
 
                                 </span>
-                            </a>
+                            </Link>
+
+
 
 
                         </div>
                     </div>
 
 
-                    <div class="space-y-4">
+                    <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div
                             class="bg-gray-100 text-green-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-green-700 dark:text-green-300">
                             <span className="flex items-center mx-1">
@@ -183,20 +188,11 @@ export default function ProjectList() {
                             TC Issuing Software
                         </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                            Flowbite helps you connect with friends, family and communities of people who share your interests.
+                            Custom Software for Government Arts and Science College
                         </p>
                         <div className="flex gap-2 w-full">
-                            <a href="#" title=""
-                                class="text-white bg-blue-700 justify-center hover:bg-blue-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                role="button">
-                                Preview
-                                <span className="ml-2 text-lg flex items-center">
-                                    <ion-icon name="eye-outline"></ion-icon>
-
-                                </span>
-                            </a>
-
-                            <a href="#" title=""
+                            
+                            <Link href={'/testimonial#tc'}
                                 class="text-gray-900 border border-gray-200 bg-white justify-center hover:bg-gray-100 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-800 dark:hover:bg-gray-70  dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
                                 role="button">
                                 Testimonial
@@ -204,7 +200,9 @@ export default function ProjectList() {
                                     <ion-icon name="chatbox-outline"></ion-icon>
 
                                 </span>
-                            </a>
+                            </Link>
+
+
 
 
                         </div>

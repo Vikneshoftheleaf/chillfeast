@@ -1,0 +1,26 @@
+[
+    {
+        
+        "title":"The Power of Chatbots: How They Improve Customer Service",
+        "description": "Discover how chatbots are transforming customer service. Learn why adding an AI-driven chatbot to your website can enhance user experience, reduce wait times, and increase customer satisfaction",
+        "author": "Viknesh",
+        "date": "Feb. 8, 2022",
+        "role": "Web Developer",
+        "tag":"chatbots",
+        "id": "the-power-of-chatbots-how-they-Improve-customer-service",
+        "post-content":"content"
+
+    },
+    {
+        
+        "title":"Why SEO Matters for Your Business Website",
+        "description": "SEO is essential for online visibility and traffic. Find out why a strong SEO strategy can boost your business, attract more customers, and improve your site's ranking on search engines.",
+        "author": "Viknesh",
+        "date": "Feb. 8, 2022",
+        "role": "Web Developer",
+        "tag":"seo",
+        "id": "why-seo-matters-for-your-business-website",
+        "post-content":"content"
+
+    }
+]

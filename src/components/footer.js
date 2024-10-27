@@ -15,7 +15,6 @@ export default function Footer() {
                             <Link href={'/'} class="flex items-center">
                                 <Image src={logo} alt="Logo" height={80} width={160} className="dark:invert-0 invert rounded-md"></Image>
                             </Link>
-                            <p className="text-gray-600 dark:text-gray-400 text-sm px-4">Need a new website or chatbot for your business? Contact Chillfeast today to discuss your project. We offer custom WordPress sites, static sites, and chatbot solutions tailored to your needs.</p>
                         </div>
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Links</h2>

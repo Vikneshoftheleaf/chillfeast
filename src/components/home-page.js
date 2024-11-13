@@ -1,13 +1,6 @@
 import Link from "next/link"
-import Image from "next/image"
-import lead from '../../public/assests/lead.png'
-import web from '../../public/assests/web.png'
-import wordpress from '../../public/assests/wordpress.png'
-import seo from '../../public/assests/seo.png'
-import custom from '../../public/assests/custom.png'
-import chatbot from '../../public/assests/chatbot.png'
-import ecom from '../../public/assests/ecom.png'
-
+import ServiceHome from "./service-list-home"
+import ProjectPreview from "./preview-projects"
 export default function HomePage() {
     return (
 
@@ -77,6 +70,10 @@ export default function HomePage() {
 
                 </div>
             </div>
+
+            <ServiceHome/>
+            <ProjectPreview/>
+            
             
 {/** 
             <div className="bg-white dark:bg-gray-900">

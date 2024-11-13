@@ -2,6 +2,7 @@ import Link from "next/link";
 import bobu from "../../public/assests/bobu-logo.png"
 import kichata from "../../public/assests/kichata-logo.jpg"
 import kiwi from "../../public/assests/kiwi-logo.webp"
+import govt from "../../public/assests/govt-logo.jpg"
 
 import Image from "next/image";
 export default function Hero() {
@@ -12,7 +13,7 @@ export default function Hero() {
                     <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Get a Customer Support Chartrbot!</span>
                     <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
                 </a>
-                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Transform Your Digital Vision into Reality with Chillfeast</h1>
+                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white leading-12">Transform Your Digital Vision into Reality with Chillfeast</h1>
                 <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">From custom websites to intelligent chatbots and enterprise solutions, we bring innovation and expertise to every project.</p>
                 <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                     <Link href={'/contact'} class="inline-flex gap-2 justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
@@ -36,6 +37,10 @@ export default function Hero() {
                         </a>
                         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
                             <Image src={kiwi} alt="" height={60} width={60} class="filter grayscale dark:invert hover:grayscale-0 transition duration-300"></Image>
+
+                        </a>
+                        <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
+                            <Image src={govt} alt="" height={60} width={60} class="filter grayscale dark:invert hover:grayscale-0 transition duration-300"></Image>
 
                         </a>
                     </div>

@@ -1,4 +1,13 @@
 import Link from "next/link";
+import bobu from "../../public/assests/bobu-logo.png"
+import kichata from "../../public/assests/kichata-logo.jpg"
+import kiwi from "../../public/assests/kiwi-logo.webp"
+import govt from "../../public/assests/govt-logo.jpg"
+import sarah from "../../public/assests/sarah.jpg"
+
+
+import Image from "next/image";
+
 
 export default function ProjectList() {
     return (
@@ -15,16 +24,26 @@ export default function ProjectList() {
 
                 <div class="grid grid-cols-1 mt-12 text-left sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        <div
-                            class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
-                            <span className="flex items-center mx-1">
-                                <ion-icon name="logo-wordpress"></ion-icon>
-                            </span>
-                            <span>Wordpress</span>
+
+                        <div className="flex gap-4 items-center">
+                            <div>
+                                <Image src={bobu} alt="" height={50} width={50} className="rounded-md"></Image>
+
+                            </div>
+                            <div>
+                                <div
+                                    class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
+                                    <span className="flex items-center mx-1">
+                                        <ion-icon name="logo-wordpress"></ion-icon>
+                                    </span>
+                                    <span>Wordpress</span>
+                                </div>
+                                <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+                                    Bobukids
+                                </h3>
+
+                            </div>
                         </div>
-                        <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            Bobukids
-                        </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
                             Bobukids is a south indian based Kids Dinnerware company.
                         </p>
@@ -54,16 +73,26 @@ export default function ProjectList() {
                     </div>
 
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        <div
-                            class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
-                            <span className="flex items-center mx-1">
-                                <ion-icon name="logo-wordpress"></ion-icon>
-                            </span>
-                            <span>Wordpress</span>
+                        <div className="flex gap-4 items-center">
+                            <div>
+                                <Image src={kichata} alt="" height={50} width={50} className="rounded-md"></Image>
+
+                            </div>
+                            <div>
+                                <div
+                                    class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
+                                    <span className="flex items-center mx-1">
+                                        <ion-icon name="logo-wordpress"></ion-icon>
+                                    </span>
+                                    <span>Wordpress</span>
+                                </div>
+                                <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+                                    KichataResearch
+                                </h3>
+
+                            </div>
                         </div>
-                        <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            KichataResearch
-                        </h3>
+                        
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
                             KichataResearch is a Kenya Based Market Researching Company
                         </p>
@@ -94,18 +123,27 @@ export default function ProjectList() {
                     </div>
 
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        <div
-                            class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
-                            <span className="flex items-center mx-1">
-                                <ion-icon name="logo-wordpress"></ion-icon>
-                            </span>
-                            <span>Wordpress</span>
+                    <div className="flex gap-4 items-center">
+                            <div>
+                                <Image src={kiwi} alt="" height={50} width={50} className="rounded-md"></Image>
+
+                            </div>
+                            <div>
+                                <div
+                                    class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
+                                    <span className="flex items-center mx-1">
+                                        <ion-icon name="logo-wordpress"></ion-icon>
+                                    </span>
+                                    <span>Wordpress</span>
+                                </div>
+                                <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+                                    KiwiHomePros
+                                </h3>
+
+                            </div>
                         </div>
-                        <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            Kiwihomepros
-                        </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-                           Kiwihomepros is a American based Pressure Washing Company
+                            Kiwihomepros is a American based Pressure Washing Company
                         </p>
                         <div className="flex gap-2 w-full">
                             <a href="https://kiwihomepros.com" title=""
@@ -135,16 +173,25 @@ export default function ProjectList() {
                     </div>
 
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        <div
-                            class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
-                            <span className="flex items-center mx-1">
-                                <ion-icon name="logo-wordpress"></ion-icon>
-                            </span>
-                            <span>Wordpress</span>
+                    <div className="flex gap-4 items-center">
+                            <div>
+                                <Image src={sarah} alt="" height={50} width={50} className="rounded-md"></Image>
+
+                            </div>
+                            <div>
+                                <div
+                                    class="bg-gray-100 text-blue-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300">
+                                    <span className="flex items-center mx-1">
+                                        <ion-icon name="logo-wordpress"></ion-icon>
+                                    </span>
+                                    <span>Wordpress</span>
+                                </div>
+                                <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+                                    Sarahthou
+                                </h3>
+
+                            </div>
                         </div>
-                        <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            Sarathuo
-                        </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
                             Sarathuo is a Kenya based Youtuber
                         </p>
@@ -177,21 +224,30 @@ export default function ProjectList() {
 
 
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                        <div
-                            class="bg-gray-100 text-green-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-green-700 dark:text-green-300">
-                            <span className="flex items-center mx-1">
-                                <ion-icon name="code-slash-outline"></ion-icon>
-                            </span>
-                            <span>Desktop Application</span>
+                    <div className="flex gap-4 items-center">
+                            <div>
+                                <Image src={govt} alt="" height={50} width={50} className="rounded-md"></Image>
+
+                            </div>
+                            <div>
+                                <div
+                                    class="bg-gray-100 text-green-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-green-700 dark:text-green-300">
+                                    <span className="flex items-center mx-1">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                    </span>
+                                    <span>Desktop Application</span>
+                                </div>
+                                <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+                                    TC Issuing Software
+                                </h3>
+
+                            </div>
                         </div>
-                        <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                            TC Issuing Software
-                        </h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
                             Custom Software for Government Arts and Science College
                         </p>
                         <div className="flex gap-2 w-full">
-                            
+
                             <Link href={'/testimonial#tc'}
                                 class="text-gray-900 border border-gray-200 bg-white justify-center hover:bg-gray-100 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-gray-800 dark:hover:bg-gray-70  dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70"
                                 role="button">

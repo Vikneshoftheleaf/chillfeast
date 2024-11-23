@@ -28,7 +28,7 @@ export default async function BlogList() {
                             </span>
                             <span class="text-sm">14 days ago</span>
                         </div>
-                        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><Link href={'/blog/Best-practices-for-successful-prototypes'}>{index.title}</Link></h2>
+                        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><Link href={`/blog/${index.id}`}>{index.title}</Link></h2>
                         <p class="mb-5 font-light text-gray-500 dark:text-gray-400">{index.description}</p>
                         <div class="flex justify-between items-center">
                             <div class="flex items-center space-x-4">

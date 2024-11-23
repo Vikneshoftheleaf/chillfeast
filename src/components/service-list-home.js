@@ -10,7 +10,7 @@ export default function ServiceHome() {
                         <div class="text-2xl  flex justify-center items-center w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="globe-outline"></ion-icon>
                         </div>
-                        <h3 class="text-xl font-bold dark:text-white">Website Development</h3>
+                        <h3 class="text-lg font-bold dark:text-white">Website Development</h3>
 
 
                     </div>
@@ -18,7 +18,7 @@ export default function ServiceHome() {
                         <div class="text-2xl flex justify-center items-center  w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="logo-wordpress"></ion-icon>
                         </div>
-                        <h3 class="text-xl font-bold dark:text-white">Wordpress Website Development</h3>
+                        <h3 class="text-lg font-bold dark:text-white">Wordpress Website Development</h3>
 
 
                     </div>
@@ -27,7 +27,7 @@ export default function ServiceHome() {
                         <div class="text-2xl  flex justify-center items-center w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="bag-handle-outline"></ion-icon>
                         </div>
-                        <h3 class="text-xl font-bold dark:text-white">E-Commerce Website Development</h3>
+                        <h3 class="text-lg font-bold dark:text-white">E-Commerce Website Development</h3>
 
 
                     </div>
@@ -36,7 +36,7 @@ export default function ServiceHome() {
                         <div class="text-2xl  flex justify-center items-center w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="chatbubbles-outline"></ion-icon>
                         </div>
-                        <h3 class=" text-xl font-bold dark:text-white">Customer Support Chatbot</h3>
+                        <h3 class=" text-lg font-bold dark:text-white">Customer Support Chatbot</h3>
 
 
                     </div>
@@ -44,7 +44,7 @@ export default function ServiceHome() {
                         <div class="text-2xl  flex justify-center items-center  w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="qr-code-outline"></ion-icon>
                         </div>
-                        <h3 class=" text-xl font-bold dark:text-white">Custom Softwares for Enterprise</h3>
+                        <h3 class=" text-lg font-bold dark:text-white">Custom Softwares for Enterprise</h3>
 
 
                     </div>
@@ -52,7 +52,7 @@ export default function ServiceHome() {
                         <div class="text-2xl  flex justify-center items-center w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
                             <ion-icon name="cog-outline"></ion-icon>
                         </div>
-                        <h3 class=" text-xl font-bold dark:text-white">SEO</h3>
+                        <h3 class=" text-lg font-bold dark:text-white">SEO</h3>
 
 
                     </div>

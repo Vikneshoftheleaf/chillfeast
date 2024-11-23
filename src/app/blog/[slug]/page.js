@@ -1,6 +1,7 @@
 import BlogTemplate from "@/components/blog-in-page";
 import { promises as fs } from 'fs';
 
+
 export default async function BlogPage({params})
 
 {
@@ -17,5 +18,10 @@ export default async function BlogPage({params})
     }
 
 
+    
+}
+
+export const metadata = {
+    title:  "Blog | Chillfeast"
     
 }

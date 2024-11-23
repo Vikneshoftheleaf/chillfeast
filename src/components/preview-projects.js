@@ -24,13 +24,27 @@ export default function ProjectPreview() {
                     <div className="flex flex-col gap-2">
                         <Image src={bobu} class=" w-full rounded-lg" alt="" />
                         <div className="flex gap-2 items-center">
-                            <Image src={bobulogo} height={25} width={25} class="rounded-full" alt="" />
+                            <Image src={bobulogo} height={25} width={25} class="object-cover rounded-full" alt="" />
                             <p>BobuKids</p>
                         </div>
-
                     </div>
-                    <Image src={kiwi} class=" w-full rounded-lg" alt="" />
-                    <Image src={sarah} class="w-full rounded-lg" alt="" />
+
+                    <div className="flex flex-col gap-2">
+                        <Image src={kiwi} class=" w-full rounded-lg" alt="" />
+                        <div className="flex gap-2 items-center">
+                            <Image src={kiwilogo} height={25} width={25} class="object-cover rounded-full" alt="" />
+                            <p>Kiwihomepros</p>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col gap-2">
+                        <Image src={sarah} class=" w-full rounded-lg" alt="" />
+                        <div className="flex gap-2 items-center">
+                            <Image src={sarahlogo} height={25} width={25} class="object-cover rounded-full" alt="" />
+                            <p>Sarah Thuo</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

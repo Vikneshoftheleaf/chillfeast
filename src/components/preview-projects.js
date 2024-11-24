@@ -3,11 +3,11 @@ import bobu from "../../public/assests/screenshot/bobu.png"
 import kiwi from "../../public/assests/screenshot/kiwi.png"
 import sarah from "../../public/assests/screenshot/sarah.png"
 import kichata from "../../public/assests/screenshot/kichata.png"
-import bobulogo from "../../public/assests/bobu-logo.png"
+import bobulogo from "../../public/assests/bobu-logo-cropped.png"
 import kichatalogo from "../../public/assests/kichata-logo.jpg"
-import kiwilogo from "../../public/assests/kiwi-logo.webp"
+import kiwilogo from "../../public/assests/kiwi-logo-cropped.png"
 import govtlogo from "../../public/assests/govt-logo.jpg"
-import sarahlogo from "../../public/assests/sarah.jpg"
+import sarahlogo from "../../public/assests/sarah-logo-cropped.png"
 
 
 
@@ -21,29 +21,29 @@ export default function ProjectPreview() {
                 <div class="w-full text-center mx-auto font-semibold text-gray-400 uppercase mb-8">our projects</div>
 
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 justify-center items-center">
-                    <div className="flex flex-col gap-2">
+                    <a href="https://bobukids.in" className="flex flex-col gap-2" target="blank">
                         <Image src={bobu} class=" w-full rounded-lg" alt="" />
                         <div className="flex gap-2 items-center">
-                            <Image src={bobulogo} height={25} width={25} class="object-cover rounded-full" alt="" />
-                            <p>BobuKids</p>
+                            <Image src={bobulogo} height={30} width={30} class="object-cover rounded-full" alt="" />
+                            <p className="text-lg">BobuKids</p>
                         </div>
-                    </div>
+                    </a>
 
-                    <div className="flex flex-col gap-2">
+                    <a href="https://kiwihomepros.com" className="flex flex-col gap-2" target="blank">
                         <Image src={kiwi} class=" w-full rounded-lg" alt="" />
                         <div className="flex gap-2 items-center">
-                            <Image src={kiwilogo} height={25} width={25} class="object-cover rounded-full" alt="" />
-                            <p>Kiwihomepros</p>
+                            <Image src={kiwilogo} height={30} width={30} class="object-cover rounded-full" alt="" />
+                            <p className="text-lg">Kiwihomepros</p>
                         </div>
-                    </div>
+                    </a>
 
-                    <div className="flex flex-col gap-2">
+                    <a href="https://sarahthuo.com" className="flex flex-col gap-2" target="blank">
                         <Image src={sarah} class=" w-full rounded-lg" alt="" />
                         <div className="flex gap-2 items-center">
-                            <Image src={sarahlogo} height={25} width={25} class="object-cover rounded-full" alt="" />
-                            <p>Sarah Thuo</p>
+                            <Image src={sarahlogo} height={30} width={30} class="object-cover rounded-full" alt="" />
+                            <p className="text-lg">Sarah Thuo</p>
                         </div>
-                    </div>
+                    </a>
 
                 </div>
             </div>

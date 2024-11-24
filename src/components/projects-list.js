@@ -1,9 +1,9 @@
 import Link from "next/link";
-import bobu from "../../public/assests/bobu-logo.png"
-import kichata from "../../public/assests/kichata-logo.jpg"
-import kiwi from "../../public/assests/kiwi-logo.webp"
-import govt from "../../public/assests/govt-logo.jpg"
-import sarah from "../../public/assests/sarah.jpg"
+import bobu from "../../public/assests/bobu-logo-cropped.png"
+import kichata from "../../public/assests/kichata-logo-cropped.png"
+import kiwi from "../../public/assests/kiwi-logo-cropped.png"
+import govt from "../../public/assests/govt-logo-cropped.png"
+import sarah from "../../public/assests/sarah-logo-cropped.png"
 
 
 import Image from "next/image";
@@ -27,7 +27,7 @@ export default function ProjectList() {
 
                         <div className="flex gap-4 items-center">
                             <div>
-                                <Image src={bobu} alt="" height={50} width={50} className="rounded-md"></Image>
+                                <Image src={bobu} alt="" height={50} width={50} className="rounded-md object-cover"></Image>
 
                             </div>
                             <div>
@@ -75,7 +75,7 @@ export default function ProjectList() {
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div className="flex gap-4 items-center">
                             <div>
-                                <Image src={kichata} alt="" height={50} width={50} className="rounded-md"></Image>
+                                <Image src={kichata} alt="" height={50} width={50} className="rounded-md object-cover"></Image>
 
                             </div>
                             <div>
@@ -125,7 +125,7 @@ export default function ProjectList() {
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <div className="flex gap-4 items-center">
                             <div>
-                                <Image src={kiwi} alt="" height={50} width={50} className="rounded-md"></Image>
+                                <Image src={kiwi} alt="" height={50} width={50} className="rounded-md object-cover"></Image>
 
                             </div>
                             <div>
@@ -175,7 +175,7 @@ export default function ProjectList() {
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <div className="flex gap-4 items-center">
                             <div>
-                                <Image src={sarah} alt="" height={50} width={50} className="rounded-md"></Image>
+                                <Image src={sarah} alt="" height={50} width={50} className="rounded-md object-cover"></Image>
 
                             </div>
                             <div>
@@ -226,7 +226,7 @@ export default function ProjectList() {
                     <div class="space-y-4 p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <div className="flex gap-4 items-center">
                             <div>
-                                <Image src={govt} alt="" height={50} width={50} className="rounded-md"></Image>
+                                <Image src={govt} alt="" height={50} width={50} className="rounded-md object-cover"></Image>
 
                             </div>
                             <div>

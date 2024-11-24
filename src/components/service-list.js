@@ -13,7 +13,7 @@ export default function ServiceList() {
                     </div>
 
                     <div className="h-full w-full flex justify-center items-start">
-                    <Image src={service} alt="" height={250} width={250}></Image>
+                    <Image src={service} alt="" height={250} width={250} className="rounded-full"></Image>
 
                     </div>
 

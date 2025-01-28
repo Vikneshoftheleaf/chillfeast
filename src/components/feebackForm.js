@@ -43,7 +43,7 @@ const FeedbackForm = ({ apiUrl }) => {
     <>
       {/* Button to open the feedback form */}
       <button
-        className="fixed bottom-4 right-4 px-4 py-2 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all"
+        className="text-sm fixed bottom-4 right-4 px-4 py-2 text-white bg-blue-700 rounded-full shadow-lg hover:bg-blue-700 transition-all"
         onClick={() => setIsOpen(true)}
       >
         📝 Feedback
@@ -52,7 +52,7 @@ const FeedbackForm = ({ apiUrl }) => {
       {/* Feedback Form Popup */}
       {isOpen && (
         <div className="fixed inset-0 flex justify-center items-center bg-white/10 backdrop-blur-md z-50">
-          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-xl w-96 p-6">
+          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-xl w-96 p-6 border-2 dark:border-gray-500">
 
             {/* Form */}
 

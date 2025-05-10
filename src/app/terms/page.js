@@ -59,7 +59,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">9. Governing Law</h2>
           <p>
-            These Terms are governed by the laws of India. Any disputes arising from these Terms shall be resolved in the courts of [Your City], India.
+            These Terms are governed by the laws of India. Any disputes arising from these Terms shall be resolved in the courts of Tiruppur, India.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">10. Changes to These Terms</h2>
@@ -71,9 +71,9 @@ export default function TermsPage() {
           <p>
             If you have questions about these Terms, please contact us at:
             <br />
-            Email: support@chillfeast.com
+            Email: chat.chillfeast@gmail.com
             <br />
-            Address: ChillFeast, [Your Business Address], [Your City], India
+            Address: ChillFeast, Tiruppur, India
           </p>
 
           <p className="mt-8">
